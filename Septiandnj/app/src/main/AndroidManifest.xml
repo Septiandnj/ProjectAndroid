@@ -9,11 +9,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LinearLayout">
+
+        </activity>
+        <activity
+            android:name=".ClassKeDua"
+            android:label="@string/title_activity_class_ke_dua">
+        </activity>
+        <activity
+            android:name=".LayoutSederhana"
+            android:label="@string/title_activity_layout_sederhana">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".TampilanLayoutTabel"
+            android:label="@string/title_activity_tampilan_layout_tabel">
+        </activity>
+        <activity
+            android:name=".GambarAndroid"
+            android:label="@string/title_activity_gambar_android">
         </activity>
     </application>
 

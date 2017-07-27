@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Septian</string>
+    <string name="title_activity_class_ke_dua">ClassKeDua</string>
+    <string name="title_activity_relatif_layout">RelatifLayout</string>
+    <string name="title_activity_layout_sederhana">LayoutSederhana</string>
+    <string name="title_activity_tampilan_layout_tabel">TampilanLayoutTabel</string>
+    <string name="title_activity_gambar_android">GambarAndroid</string>
 </resources>
