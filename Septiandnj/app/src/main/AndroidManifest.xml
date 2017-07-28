@@ -8,30 +8,35 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LinearLayout">
-
-        </activity>
+        <activity android:name=".LinearLayout" />
         <activity
             android:name=".ClassKeDua"
-            android:label="@string/title_activity_class_ke_dua">
-        </activity>
+            android:label="@string/title_activity_class_ke_dua" />
         <activity
             android:name=".LayoutSederhana"
-            android:label="@string/title_activity_layout_sederhana"
-            android:icon="@drawable/download">
+            android:icon="@drawable/download"
+            android:label="@string/title_activity_layout_sederhana"></activity>
+        <activity
+            android:name=".TampilanLayoutTabel"
+            android:label="@string/title_activity_tampilan_layout_tabel" />
+        <activity
+            android:name=".GambarAndroid"
+            android:label="@string/title_activity_gambar_android" />
+        <activity
+            android:name=".AutoCompleteSederhana"
+            android:label="@string/title_activity_auto_complete_sederhana"></activity>
+        <activity
+            android:name=".DialogBox"
+            android:label="@string/title_activity_dialog_box">
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".TampilanLayoutTabel"
-            android:label="@string/title_activity_tampilan_layout_tabel">
-        </activity>
-        <activity
-            android:name=".GambarAndroid"
-            android:label="@string/title_activity_gambar_android">
         </activity>
     </application>
 
