@@ -119,6 +119,14 @@ public class Home extends Activity {
 
             }
         });
+        Button ee = (Button) findViewById(R.id.ServiceSederhana);
+        ee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View ServiceSederhana) {
+                Intent myIntent = new
+                        Intent(ServiceSederhana.getContext(), ServiceSederhana.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
     }
-
 }
