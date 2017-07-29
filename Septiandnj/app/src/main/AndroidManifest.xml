@@ -48,7 +48,10 @@
             android:label="@string/title_activity_radio_button" />
         <activity
             android:name=".Seleksi"
-            android:label="@string/title_activity_seleksi"></activity>
+            android:label="@string/title_activity_seleksi" />
+        <activity
+            android:name=".ServiceSederhana"
+            android:label="@string/title_activity_service_sederhana"></activity>
     </application>
 
 </manifest>

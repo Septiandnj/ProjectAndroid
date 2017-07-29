@@ -18,4 +18,8 @@
     <string name="CheckBox">CheckBox ini : Tidak Di Centang!</string>
     <string name="title_activity_radio_button">RadioButton</string>
     <string name="title_activity_seleksi">Seleksi</string>
+    <string name="title_activity_service_sederhana">ServiceSederhana</string>
+    <string name="aa">Service Sederhana!</string>
+    <string name="startBtn">Start</string>
+    <string name="stopBtn">Stop</string>
 </resources>
