@@ -1,16 +1,21 @@
 <resources>
-    <string name="app_name">Membuat Dialog Box</string>
+    <string name="app_name">Membuat Check Box</string>
     <string name="title_activity_class_ke_dua">ClassKeDua</string>
     <string name="title_activity_relatif_layout">RelatifLayout</string>
     <string name="title_activity_layout_sederhana">LayoutSederhana</string>
     <string name="title_activity_tampilan_layout_tabel">TampilanLayoutTabel</string>
     <string name="title_activity_gambar_android">GambarAndroid</string>
     <string name="title_activity_auto_complete_sederhana">AutoCompleteSederhana</string>
-    <string name="hello">Hello World, Dialog box!</string>
+    <string name="hello">Hello World, CheckBox!</string>
     <string name="perintah">Masukkan Minimal 3 Huruf</string>
     <string name="title_activity_dialog_box">DialogBox</string>
     <string name="toastTextBtn">Panggil Toast</string>
     <string name="exitTextBtn">Keluar Aplikasi</string>
     <string name="listDialogTextBtn">Panggil List Dialog</string>
     <string name="title_activity_home">Home</string>
+    <string name="title_activity_picker">picker</string>
+    <string name="title_activity_check_box">checkBox</string>
+    <string name="CheckBox">CheckBox ini : Tidak Di Centang!</string>
+    <string name="title_activity_radio_button">RadioButton</string>
+    <string name="title_activity_seleksi">Seleksi</string>
 </resources>

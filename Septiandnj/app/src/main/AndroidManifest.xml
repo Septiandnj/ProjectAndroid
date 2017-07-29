@@ -15,7 +15,7 @@
         <activity
             android:name=".LayoutSederhana"
             android:icon="@drawable/download"
-            android:label="@string/title_activity_layout_sederhana"></activity>
+            android:label="@string/title_activity_layout_sederhana" />
         <activity
             android:name=".TampilanLayoutTabel"
             android:label="@string/title_activity_tampilan_layout_tabel" />
@@ -24,11 +24,10 @@
             android:label="@string/title_activity_gambar_android" />
         <activity
             android:name=".AutoCompleteSederhana"
-            android:label="@string/title_activity_auto_complete_sederhana"></activity>
+            android:label="@string/title_activity_auto_complete_sederhana" />
         <activity
             android:name=".DialogBox"
-            android:label="@string/title_activity_dialog_box">
-        </activity>
+            android:label="@string/title_activity_dialog_box" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home">
@@ -38,6 +37,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".picker"
+            android:label="@string/title_activity_picker" />
+        <activity
+            android:name=".checkBox"
+            android:label="@string/title_activity_check_box" />
+        <activity
+            android:name=".RadioButton"
+            android:label="@string/title_activity_radio_button" />
+        <activity
+            android:name=".Seleksi"
+            android:label="@string/title_activity_seleksi"></activity>
     </application>
 
 </manifest>

@@ -47,5 +47,29 @@
         android:text="Kotak Dialog"
         android:id="@+id/DialogBox">
     </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Picker"
+        android:id="@+id/picker">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="CheckBox"
+        android:id="@+id/checkBox">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Radio Button"
+        android:id="@+id/RadioButton">
+    </Button>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:text="Selection Widget"
+        android:id="@+id/Seleksi">
+    </Button>
 
 </LinearLayout>
