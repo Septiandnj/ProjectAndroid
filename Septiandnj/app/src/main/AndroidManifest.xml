@@ -50,7 +50,10 @@
             android:label="@string/title_activity_seleksi" />
         <activity
             android:name=".ServiceSederhana"
-            android:label="@string/title_activity_service_sederhana"></activity>
+            android:label="@string/title_activity_service_sederhana" />
+        <activity
+            android:name=".PlayingAudio"
+            android:label="@string/title_activity_playing_audio"></activity>
     </application>
 
 </manifest>

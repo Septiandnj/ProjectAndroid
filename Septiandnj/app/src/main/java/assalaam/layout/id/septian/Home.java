@@ -128,5 +128,14 @@ public class Home extends Activity {
                 startActivityForResult(myIntent, 0);
             }
         });
+        Button ff = (Button) findViewById(R.id.PlayingAudio);
+        ff.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View PlayingAudio) {
+                Intent myIntent = new
+                        Intent(PlayingAudio.getContext(), PlayingAudio.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
     }
 }

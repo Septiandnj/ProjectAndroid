@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Membuat Check Box</string>
+    <string name="app_name">Septiandnj</string>
     <string name="title_activity_class_ke_dua">ClassKeDua</string>
     <string name="title_activity_relatif_layout">RelatifLayout</string>
     <string name="title_activity_layout_sederhana">LayoutSederhana</string>
@@ -22,4 +22,5 @@
     <string name="aa">Service Sederhana!</string>
     <string name="startBtn">Start</string>
     <string name="stopBtn">Stop</string>
+    <string name="title_activity_playing_audio">PlayingAudio</string>
 </resources>
