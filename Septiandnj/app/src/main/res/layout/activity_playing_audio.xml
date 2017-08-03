@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_playing_audio"
     android:orientation="vertical"
@@ -15,24 +15,24 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="15px"
+        android:textSize="40px"
         android:id="@+id/textView"
         android:text="Memainkan Musik"></TextView>
-    <ImageButton
+    <ImageView
         android:layout_width="fill_parent"
-        android:layout_height="40dp"
-        android:id="@+id/putarMusik"
-        android:adjustViewBounds="false"
-        android:src="@drawable/play"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_weight="0.03"></ImageButton>
-    <TextView
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:textSize="15px"
-        android:id="@+id/ket"
-        android:text=""></TextView>
+        android:src="@drawable/grande"
+        android:layout_gravity="clip_vertical"
+        android:layout_marginTop="35dp"/>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="PLAY"
+    android:id="@+id/btnPLAY"
+    android:layout_below="@+id/textView"
+    android:layout_toLeftOf="@+id/btnPAUSE"
+    android:layout_toStartOf="@+id/btnPAUSE"
+    android:layout_marginTop="270dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,4 +49,4 @@
         android:id="@+id/btnPAUSE"
         android:layout_alignTop="@+id/btnPLAY"
         android:layout_centerHorizontal="true"/>
-</LinearLayout>
+</RelativeLayout>

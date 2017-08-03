@@ -137,5 +137,14 @@ public class Home extends Activity {
                 startActivityForResult(myIntent, 0);
             }
         });
+        Button gg = (Button) findViewById(R.id.Calculator);
+        gg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View Calculator) {
+                Intent myIntent = new
+                        Intent(Calculator.getContext(), Calculator.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
     }
 }

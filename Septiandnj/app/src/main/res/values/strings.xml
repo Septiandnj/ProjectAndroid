@@ -23,4 +23,7 @@
     <string name="startBtn">Start</string>
     <string name="stopBtn">Stop</string>
     <string name="title_activity_playing_audio">PlayingAudio</string>
+    <string name="title_activity_homee">Homee</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_calculator">Calculator</string>
 </resources>

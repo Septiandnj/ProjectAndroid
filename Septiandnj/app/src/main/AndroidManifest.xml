@@ -29,13 +29,7 @@
             android:label="@string/title_activity_dialog_box" />
         <activity
             android:name=".Home"
-            android:label="@string/title_activity_home">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="@string/title_activity_home"></activity>
         <activity
             android:name=".picker"
             android:label="@string/title_activity_picker" />
@@ -53,7 +47,19 @@
             android:label="@string/title_activity_service_sederhana" />
         <activity
             android:name=".PlayingAudio"
-            android:label="@string/title_activity_playing_audio"></activity>
+            android:label="@string/title_activity_playing_audio" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:label="@string/title_activity_calculator"></activity>
     </application>
 
 </manifest>

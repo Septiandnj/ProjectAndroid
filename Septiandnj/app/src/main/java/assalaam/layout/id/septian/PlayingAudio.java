@@ -1,45 +1,44 @@
 package assalaam.layout.id.septian;
 
-import android.os.Bundle;
-import android.app.Activity;
-import java.io.IOException;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
+import android.os.Bundle;
+import android.app.Activity;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ImageButton;
-import android.widget.TextView;
 import android.widget.Button;
+
+import java.io.IOException;
 
 
 public class PlayingAudio extends Activity {
-    ImageButton mainkan;
-    TextView keterangan;
-    MediaPlayer mp;
     private Button btnPlay;
     private Button btnPause;
     private Button btnStop;
+    private MediaPlayer mp;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playing_audio);
 
+        mp = new MediaPlayer();
+
+        btnPlay = (Button) findViewById(R.id.btnPLAY);
         btnPause = (Button) findViewById(R.id.btnPAUSE);
         btnStop = (Button) findViewById(R.id.btnSTOP);
 
-        keterangan=(TextView)findViewById(R.id.ket);
-        keterangan.setText("Silakan klik tombol play");
+        stateAwal();
 
-        mainkan=(ImageButton)findViewById(R.id.putarMusik);
-        mainkan.setOnClickListener(new OnClickListener() {
+        btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View arg0) {
-                mainkan.setEnabled(false);
-                keterangan.setText("Tombol play tidak aktif");
-                go();
+            public void onClick(View v) {
+                play();
+                btnPlay.setEnabled(false);
+                btnPause.setEnabled(true);
+                btnStop.setEnabled(true);
             }
         });
+
         btnPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,8 +53,19 @@ public class PlayingAudio extends Activity {
             }
         });
     }
-    public void go() {
-        mp = MediaPlayer.create(PlayingAudio.this, R.raw.honeymoon);
+
+    /** State Awal / Pertama Dijalankan */
+    public void stateAwal(){
+        btnPlay.setEnabled(true);
+        btnPause.setEnabled(false);
+        btnStop.setEnabled(false);
+    }
+
+    /** Dijalankan Oleh Tombol Play */
+    private void play() {
+        /** Memanggil File MP3 "indonesiaraya.mp3" */
+        mp = MediaPlayer.create(this, R.raw.honeymoon);
+
         try {
             mp.prepare();
         } catch (IllegalStateException e) {
@@ -63,12 +73,15 @@ public class PlayingAudio extends Activity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        /** Menjalankan Audio */
         mp.start();
+
+        /** Penanganan Ketika Suara Berakhir */
         mp.setOnCompletionListener(new OnCompletionListener() {
             @Override
-            public void onCompletion(MediaPlayer arg0) {
-                mainkan.setEnabled(true);
-                keterangan.setText("Silakan klik tombol play");
+            public void onCompletion(MediaPlayer mp) {
+                stateAwal();
             }
         });
     }
@@ -100,10 +113,6 @@ public class PlayingAudio extends Activity {
         }
 
         stateAwal();
-    }
-    public void stateAwal(){
-        btnPause.setEnabled(false);
-        btnStop.setEnabled(false);
     }
 
 }
