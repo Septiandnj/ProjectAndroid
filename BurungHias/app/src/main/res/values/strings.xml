@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Burung Hias</string>
     <string name="title_activity_home">Macam Burung Hias</string>
+    <string name="title_activity_pilihan">Pilihan</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_activity_assalaam">Assalaam</string>
 </resources>

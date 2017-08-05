@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="assalaam.layout.id.septian">
-
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@drawable/download"
@@ -60,9 +60,7 @@
         <activity
             android:name=".Calculator"
             android:label="@string/title_activity_calculator" />
-        <activity
-            android:name=".WebView"
-            android:label="@string/title_activity_web_view" />
+
         <activity
             android:name=".webView"
             android:label="@string/title_activity_web_view"></activity>
