@@ -8,13 +8,24 @@ import android.view.View;
 import android.widget.Button;
 
 public class Home extends Activity implements View.OnClickListener {
-
     Button keluar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        keluar = (Button) findViewById(R.id.exitBtn);
+        keluar.setOnClickListener(this);
+    }
+
+    public void onClick(View clicked) {
+        switch (clicked.getId()) {
+            case R.id.exitBtn:
+                exit();
+                break;
+        }
+    }
 
     private void exit() {
         AlertDialog.Builder builder = new  AlertDialog.Builder(this);
@@ -33,6 +44,4 @@ public class Home extends Activity implements View.OnClickListener {
                     }
                 }).show();
     }
-    }
-
 }

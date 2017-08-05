@@ -92,5 +92,11 @@
             android:textColor="#ffff0100"
             android:text="Calculator Berat Badan"
             android:id="@+id/Calculator"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#ffff0100"
+            android:text="Web View"
+            android:id="@+id/webView"/>
     </LinearLayout>
 </ScrollView>

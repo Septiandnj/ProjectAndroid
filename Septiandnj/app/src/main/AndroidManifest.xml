@@ -29,7 +29,7 @@
             android:label="@string/title_activity_dialog_box" />
         <activity
             android:name=".Home"
-            android:label="@string/title_activity_home"></activity>
+            android:label="@string/title_activity_home" />
         <activity
             android:name=".picker"
             android:label="@string/title_activity_picker" />
@@ -59,7 +59,13 @@
         </activity>
         <activity
             android:name=".Calculator"
-            android:label="@string/title_activity_calculator"></activity>
+            android:label="@string/title_activity_calculator" />
+        <activity
+            android:name=".WebView"
+            android:label="@string/title_activity_web_view" />
+        <activity
+            android:name=".webView"
+            android:label="@string/title_activity_web_view"></activity>
     </application>
 
 </manifest>

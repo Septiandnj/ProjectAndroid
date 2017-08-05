@@ -146,5 +146,15 @@ public class Home extends Activity {
                 startActivityForResult(myIntent, 0);
             }
         });
+        Button hh = (Button) findViewById(R.id.webView);
+        hh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View webView) {
+                Intent myIntent = new
+                        Intent(webView.getContext(), webView.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
     }
 }
