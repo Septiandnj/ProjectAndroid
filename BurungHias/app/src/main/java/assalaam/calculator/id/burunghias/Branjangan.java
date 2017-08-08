@@ -6,19 +6,19 @@ import android.app.Activity;
 import android.view.View;
 import android.widget.ImageButton;
 
-public class Kacer extends Activity {
+public class Branjangan extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kacer);
+        setContentView(R.layout.activity_branjangan);
 
-        ImageButton aa = (ImageButton) findViewById(R.id.Kacer);
+        ImageButton aa = (ImageButton) findViewById(R.id.Branjangan);
         aa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View klik) {
                 Intent myIntent = new
-                        Intent(klik.getContext(), Satu.class);
+                        Intent(klik.getContext(), Empat.class);
                 startActivityForResult(myIntent, 0);
             }
         });

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_kacer"
+    android:id="@+id/activity_pancawarna"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="assalaam.calculator.id.burunghias.Kacer"
+    tools:context="assalaam.calculator.id.burunghias.Pancawarna"
     android:background="@drawable/merpati">
 
     <LinearLayout
@@ -19,15 +19,15 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="1) BURUNG KACER"
+            android:text="9) BURUNG PANCA WARNA"
             android:textColor="#faf9f9"
             android:textSize="20dp"/>
 
         <ImageButton
-            android:id="@+id/Kacer"
+            android:id="@+id/Pancawarna"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:src="@drawable/satu"
+            android:src="@drawable/sembilan"
             android:layout_marginTop="20dp"/>
 
         <TextView
@@ -35,17 +35,17 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Pada Kacer Jawa atau bisa juga dibilang Kacer JATIM, memiliki warna hitam yang dominan pada bulu. Hampir Seluruh tubuh berwarna hitam, kecuali pada sayap terdapat warna putih. Penyebarannya mulai dari Seychelles (Afrika), Jawa dan Kalimantan (Indonesia). Kemampuan berkicau sangat baik dan pintar menirukan suara-suara di sekelilingnya. Penampilan sangat atraktif sambil memainkan ekor. Volume suara sedang. Jenis ini juga sangat suka dengan udara panas, apalagi jika sudah gacor, sangatlah akan memukau orang yang melihatnya dan ingin memilikinya dan juga ingin membuat burung kacer miliknya seperti apa yang di lihatnya.
-
-Ada juga Kacer yang bersal dari daerah jawa barat yaitu Bogor dan sekitarnya , atau orang sering sebut dengan Kacer Jabar. Bedanya dengan kacer Jatim adalah separuh kebawah dari bagian dada berwarna putih hingga sampai ekor. Untuk lebih jelasnya bisa dilihat disini tentang Perbedaan Burung Kacer Jatim dan Kacer Jabar.
-
-Untuk menjaga agar tidak punah sebaiknya kita disarankan untuk mengembagbiakkan dengan cara menangkarkannya."/>
+            android:text="Sicantik bersuara merdu itulah sebutan burung panca warna akar (Pitta guajana) mempunyai bulu dengan perpaduan 5 warna yang indah yakni kuning, oranye, coklat, biru dan hitam.Masih kerabat dam keluarga burung robin..jenis brung imut yang disukai oleh kalangan kerajaan di negeri cina."/>
 
         <TextView
             android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Harga burung kacer berkisar antara Rp 250 ribu - Rp 1.500 ribuan (tergantung kondsi)."/>
+            android:text="Harga Burung Pancawarna anakan 200.000
+Harga Burung Pancawarna dewasa 300.000
+Harga Burung Pancawarna ngeriwik 450.000
+Harga Burung Pancawarna gacor full 600.000
+(tergantung kualitas dan jenisnya)."/>
     </LinearLayout>
 </ScrollView>

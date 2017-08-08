@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_kacer"
+    android:id="@+id/activity_lavbed"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="assalaam.calculator.id.burunghias.Kacer"
+    tools:context="assalaam.calculator.id.burunghias.Lavbed"
     android:background="@drawable/merpati">
 
     <LinearLayout
@@ -19,15 +19,15 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="1) BURUNG KACER"
+            android:text="18) BURUNG LOVE BIRD"
             android:textColor="#faf9f9"
             android:textSize="20dp"/>
 
         <ImageButton
-            android:id="@+id/Kacer"
+            android:id="@+id/Lavbed"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:src="@drawable/satu"
+            android:src="@drawable/delapanbelas"
             android:layout_marginTop="20dp"/>
 
         <TextView
@@ -35,17 +35,17 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Pada Kacer Jawa atau bisa juga dibilang Kacer JATIM, memiliki warna hitam yang dominan pada bulu. Hampir Seluruh tubuh berwarna hitam, kecuali pada sayap terdapat warna putih. Penyebarannya mulai dari Seychelles (Afrika), Jawa dan Kalimantan (Indonesia). Kemampuan berkicau sangat baik dan pintar menirukan suara-suara di sekelilingnya. Penampilan sangat atraktif sambil memainkan ekor. Volume suara sedang. Jenis ini juga sangat suka dengan udara panas, apalagi jika sudah gacor, sangatlah akan memukau orang yang melihatnya dan ingin memilikinya dan juga ingin membuat burung kacer miliknya seperti apa yang di lihatnya.
+            android:text="Tidak bisa dipungkiri, burung yang satu inipun sudah merambah terkenal sejak beberapa tahuan yang lalu, dengan harga yang lumayan tinggi, secara sepintas ukuran burung hampir sama dengan burung parkit namun perbedaan harganya sangatlah jauh.
 
-Ada juga Kacer yang bersal dari daerah jawa barat yaitu Bogor dan sekitarnya , atau orang sering sebut dengan Kacer Jabar. Bedanya dengan kacer Jatim adalah separuh kebawah dari bagian dada berwarna putih hingga sampai ekor. Untuk lebih jelasnya bisa dilihat disini tentang Perbedaan Burung Kacer Jatim dan Kacer Jabar.
+Dengan suara yang unik burung ini bisa menarik para penghobi burung untuk ikut memeliharanya baik yang  sengaja untuk memiliki untuk dijadikan burung perlombaan ataupun hanya sekedar sebagai hewan peliharaan saja.
 
-Untuk menjaga agar tidak punah sebaiknya kita disarankan untuk mengembagbiakkan dengan cara menangkarkannya."/>
+Beternak love bird juga tidak terlalu sulit, dengan menggunakan kandang yang berukuran 60x40x30 saja sudah cukup."/>
 
         <TextView
             android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Harga burung kacer berkisar antara Rp 250 ribu - Rp 1.500 ribuan (tergantung kondsi)."/>
+            android:text="Harga burung love bird untuk saat ini berkisar antara Rp 400 ribu - Rp 1.200 ribu (tergantung jenis dan kualitasnya)."/>
     </LinearLayout>
 </ScrollView>

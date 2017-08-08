@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_kacer"
+    android:id="@+id/activity_kolibri"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="assalaam.calculator.id.burunghias.Kacer"
+    tools:context="assalaam.calculator.id.burunghias.Kolibri"
     android:background="@drawable/merpati">
 
     <LinearLayout
@@ -19,15 +19,15 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="1) BURUNG KACER"
+            android:text="16) BURUNG KOLIBRI"
             android:textColor="#faf9f9"
             android:textSize="20dp"/>
 
         <ImageButton
-            android:id="@+id/Kacer"
+            android:id="@+id/Kolibri"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:src="@drawable/satu"
+            android:src="@drawable/enambelas"
             android:layout_marginTop="20dp"/>
 
         <TextView
@@ -35,17 +35,13 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Pada Kacer Jawa atau bisa juga dibilang Kacer JATIM, memiliki warna hitam yang dominan pada bulu. Hampir Seluruh tubuh berwarna hitam, kecuali pada sayap terdapat warna putih. Penyebarannya mulai dari Seychelles (Afrika), Jawa dan Kalimantan (Indonesia). Kemampuan berkicau sangat baik dan pintar menirukan suara-suara di sekelilingnya. Penampilan sangat atraktif sambil memainkan ekor. Volume suara sedang. Jenis ini juga sangat suka dengan udara panas, apalagi jika sudah gacor, sangatlah akan memukau orang yang melihatnya dan ingin memilikinya dan juga ingin membuat burung kacer miliknya seperti apa yang di lihatnya.
-
-Ada juga Kacer yang bersal dari daerah jawa barat yaitu Bogor dan sekitarnya , atau orang sering sebut dengan Kacer Jabar. Bedanya dengan kacer Jatim adalah separuh kebawah dari bagian dada berwarna putih hingga sampai ekor. Untuk lebih jelasnya bisa dilihat disini tentang Perbedaan Burung Kacer Jatim dan Kacer Jabar.
-
-Untuk menjaga agar tidak punah sebaiknya kita disarankan untuk mengembagbiakkan dengan cara menangkarkannya."/>
+            android:text="Kolibri ini yang paling dicari untuk saat ini, karena suaranya yang lebih bervariasi sehingga harganya pun paling mahal untuk sekelas kolibri. Adapun jenis kolibri lainnya diantaranya adalah, Kolibri Wulung, Kolibri Kelapa, Kolibri Hitam, Kolibri Jawa, Kolibri Gunung, Kolibri Tasik, Kolibri Sepah Raja dan tentunya masih ada jenis burung lain lagi dalam perkembangan perburungan yang mungkin suatu saat akan menjadi primadona bagi para poenghobi kicau mania."/>
 
         <TextView
             android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Harga burung kacer berkisar antara Rp 250 ribu - Rp 1.500 ribuan (tergantung kondsi)."/>
+            android:text="Kisaran harga: Rp 100 ribu - Rp 450 ribu."/>
     </LinearLayout>
 </ScrollView>

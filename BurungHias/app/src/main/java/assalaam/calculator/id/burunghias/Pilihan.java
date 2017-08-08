@@ -3,6 +3,7 @@ package assalaam.calculator.id.burunghias;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 
@@ -28,7 +29,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik2) {
                 Intent myIntent = new
-                        Intent(klik2.getContext(), Kacer.class);
+                        Intent(klik2.getContext(), Kenari.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -38,7 +39,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik3) {
                 Intent myIntent = new
-                        Intent(klik3.getContext(), Kacer.class);
+                        Intent(klik3.getContext(), Pleci.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -48,7 +49,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik4) {
                 Intent myIntent = new
-                        Intent(klik4.getContext(), Kacer.class);
+                        Intent(klik4.getContext(), Branjangan.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -58,7 +59,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik5) {
                 Intent myIntent = new
-                        Intent(klik5.getContext(), Kacer.class);
+                        Intent(klik5.getContext(), Cucakrawa.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -68,7 +69,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik6) {
                 Intent myIntent = new
-                        Intent(klik6.getContext(), Kacer.class);
+                        Intent(klik6.getContext(), Ciblek.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -78,7 +79,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik7) {
                 Intent myIntent = new
-                        Intent(klik7.getContext(), Kacer.class);
+                        Intent(klik7.getContext(), Jalaksuren.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -88,7 +89,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik8) {
                 Intent myIntent = new
-                        Intent(klik8.getContext(), Kacer.class);
+                        Intent(klik8.getContext(), Cucakhijau.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -98,7 +99,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik9) {
                 Intent myIntent = new
-                        Intent(klik9.getContext(), Kacer.class);
+                        Intent(klik9.getContext(), Pancawarna.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -108,7 +109,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik10) {
                 Intent myIntent = new
-                        Intent(klik10.getContext(), Kacer.class);
+                        Intent(klik10.getContext(), Tledekan.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -118,7 +119,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik11) {
                 Intent myIntent = new
-                        Intent(klik11.getContext(), Kacer.class);
+                        Intent(klik11.getContext(), Aniskembang.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -128,7 +129,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik12) {
                 Intent myIntent = new
-                        Intent(klik12.getContext(), Kacer.class);
+                        Intent(klik12.getContext(), Anismerah.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -138,7 +139,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik13) {
                 Intent myIntent = new
-                        Intent(klik13.getContext(), Kacer.class);
+                        Intent(klik13.getContext(), Muraibatu.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -148,7 +149,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik14) {
                 Intent myIntent = new
-                        Intent(klik14.getContext(), Kacer.class);
+                        Intent(klik14.getContext(), Pentet.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -158,7 +159,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik15) {
                 Intent myIntent = new
-                        Intent(klik15.getContext(), Kacer.class);
+                        Intent(klik15.getContext(), Gelatik.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -168,7 +169,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik16) {
                 Intent myIntent = new
-                        Intent(klik16.getContext(), Kacer.class);
+                        Intent(klik16.getContext(), Kolibri.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -178,7 +179,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik17) {
                 Intent myIntent = new
-                        Intent(klik17.getContext(), Kacer.class);
+                        Intent(klik17.getContext(), Cipoh.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -188,7 +189,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik18) {
                 Intent myIntent = new
-                        Intent(klik18.getContext(), Kacer.class);
+                        Intent(klik18.getContext(), Lavbed.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -198,7 +199,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik19) {
                 Intent myIntent = new
-                        Intent(klik19.getContext(), Kacer.class);
+                        Intent(klik19.getContext(), Trucukan.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -208,7 +209,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik20) {
                 Intent myIntent = new
-                        Intent(klik20.getContext(), Kacer.class);
+                        Intent(klik20.getContext(), Cucakjenggot.class);
                 startActivityForResult(myIntent, 0);
             }
         });
@@ -218,7 +219,7 @@ public class Pilihan extends Activity {
             @Override
             public void onClick(View klik21) {
                 Intent myIntent = new
-                        Intent(klik21.getContext(), Kacer.class);
+                        Intent(klik21.getContext(), Platuk.class);
                 startActivityForResult(myIntent, 0);
             }
         });

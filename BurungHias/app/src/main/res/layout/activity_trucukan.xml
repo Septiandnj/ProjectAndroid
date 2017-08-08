@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_kacer"
+    android:id="@+id/activity_trucukan"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="assalaam.calculator.id.burunghias.Kacer"
+    tools:context="assalaam.calculator.id.burunghias.Trucukan"
     android:background="@drawable/merpati">
 
     <LinearLayout
@@ -19,15 +19,15 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="1) BURUNG KACER"
+            android:text="19) BURUNG TRUCUKAN"
             android:textColor="#faf9f9"
             android:textSize="20dp"/>
 
         <ImageButton
-            android:id="@+id/Kacer"
+            android:id="@+id/Trucukan"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:src="@drawable/satu"
+            android:src="@drawable/sembilanbelas"
             android:layout_marginTop="20dp"/>
 
         <TextView
@@ -35,17 +35,13 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Pada Kacer Jawa atau bisa juga dibilang Kacer JATIM, memiliki warna hitam yang dominan pada bulu. Hampir Seluruh tubuh berwarna hitam, kecuali pada sayap terdapat warna putih. Penyebarannya mulai dari Seychelles (Afrika), Jawa dan Kalimantan (Indonesia). Kemampuan berkicau sangat baik dan pintar menirukan suara-suara di sekelilingnya. Penampilan sangat atraktif sambil memainkan ekor. Volume suara sedang. Jenis ini juga sangat suka dengan udara panas, apalagi jika sudah gacor, sangatlah akan memukau orang yang melihatnya dan ingin memilikinya dan juga ingin membuat burung kacer miliknya seperti apa yang di lihatnya.
-
-Ada juga Kacer yang bersal dari daerah jawa barat yaitu Bogor dan sekitarnya , atau orang sering sebut dengan Kacer Jabar. Bedanya dengan kacer Jatim adalah separuh kebawah dari bagian dada berwarna putih hingga sampai ekor. Untuk lebih jelasnya bisa dilihat disini tentang Perbedaan Burung Kacer Jatim dan Kacer Jabar.
-
-Untuk menjaga agar tidak punah sebaiknya kita disarankan untuk mengembagbiakkan dengan cara menangkarkannya."/>
+            android:text="Burung yang satu ini bukan merupakan burung yang dalam kategori mahal dan bahkan keberadaannya pun terkadang tidak begitu dilirik oleh para penggemar kicau mania, karena selama ini belum pernah ada kontes, latber, atau lomba burung kicauan yang menyertakan burung trucukan / trocok, namun sebenarnya tidak kalah cekep suara ocehannya ketika sudah gacor dan pantas juga untuk kita miliki sekalipun sekedar untuk tambahan koleksi saja. Bagaimana cara merawat agar burung trucukan cepat bunyi dan gacor silahkan lihat disini. Tentunya biasanya yang variasi suaranya lebih adalah yang berjeniskelamin jantan."/>
 
         <TextView
             android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Harga burung kacer berkisar antara Rp 250 ribu - Rp 1.500 ribuan (tergantung kondsi)."/>
+            android:text="Kisaran harga dari Rp 20.000 - Rp 200.000 rupiah."/>
     </LinearLayout>
 </ScrollView>

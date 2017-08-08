@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cucakhijau"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.calculator.id.burunghias.Cucakhijau"
+    android:background="@drawable/merpati">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="8) BURUNG CUCAK HIJAU"
+        android:textColor="#faf9f9"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:id="@+id/Cucakhijau"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/delapan"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Sesuai dengan namanya Burung Cucak Ijo memiliki warna dominan hijau dan sedikit warna hitam pada kepala dan paruh tergantung jenis kelamin, dan untuk mengetahui Jenis Kelamin Cucak Ijo Jantan dan Betina silahkan klik disini. Banyak terdapat di Pulau Jawa, Sumatera, Bali, dan Kalimantan. Burung ini hidup berkelompok di Hutan, dan terbang dari satu pohon ke pohon lainnya yang tinggi.
+
+Burung ini senang hidup di hutan lebat. Di Indonesia terutama di daerah Malang, Banyuwangi, dan Kepulauan Sunda Besar terdapat banyak jenis burung Cucak Ijo. Di Jawa dan Bali terdapat tiga jenis, sedangkan di Kepulauan Sunda Besar ada tujuh jenis.
+
+Burung Cucak Ijo atau ada juga disebut Cipo, ada Cipo Jantung dan Cipo Kucat. Jenis ini merupakan kelompok Genus Aeghitina. Sedangkan jenis lainenya adalah Cica Daun Kecil dan Cica Daun Besar, atau umumnya disebut Cucak Ijo dan Cucak Ijo Mini."/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Harga burung Cucak Ijo untuk saat ini berkisar antara Rp 500 ribu - Rp 900 ribu (tergantung kondisi dan di kawasan mana)."/>
+    </LinearLayout>
+</ScrollView>

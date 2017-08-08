@@ -31,7 +31,130 @@
             android:label="@string/title_activity_assalaam" />
         <activity
             android:name=".Kacer"
-            android:label="@string/title_activity_kacer"></activity>
+            android:label="@string/title_activity_kacer" />
+        <activity
+            android:name=".Kenari"
+            android:label="@string/title_activity_kenari" />
+        <activity
+            android:name=".Pleci"
+            android:label="@string/title_activity_pleci" />
+        <activity
+            android:name=".Branjangan"
+            android:label="@string/title_activity_branjangan" />
+        <activity
+            android:name=".Cucakrawa"
+            android:label="@string/title_activity_cucakrawa" />
+        <activity
+            android:name=".Ciblek"
+            android:label="@string/title_activity_ciblek" />
+        <activity
+            android:name=".Jalaksuren"
+            android:label="@string/title_activity_jalaksuren" />
+        <activity
+            android:name=".Cucakhijau"
+            android:label="@string/title_activity_cucakhijau" />
+        <activity
+            android:name=".Pancawarna"
+            android:label="@string/title_activity_pancawarna" />
+        <activity
+            android:name=".Tledekan"
+            android:label="@string/title_activity_tledekan" />
+        <activity
+            android:name=".Aniskembang"
+            android:label="@string/title_activity_aniskembang" />
+        <activity
+            android:name=".Anismerah"
+            android:label="@string/title_activity_anismerah" />
+        <activity
+            android:name=".Muraibatu"
+            android:label="@string/title_activity_muraibatu" />
+        <activity
+            android:name=".Pentet"
+            android:label="@string/title_activity_pentet" />
+        <activity
+            android:name=".Gelatik"
+            android:label="@string/title_activity_gelatik" />
+        <activity
+            android:name=".Kolibri"
+            android:label="@string/title_activity_kolibri" />
+        <activity
+            android:name=".Cipoh"
+            android:label="@string/title_activity_cipoh" />
+        <activity
+            android:name=".Lavbed"
+            android:label="@string/title_activity_lavbed" />
+        <activity
+            android:name=".Trucukan"
+            android:label="@string/title_activity_trucukan" />
+        <activity
+            android:name=".Cucakjenggot"
+            android:label="@string/title_activity_cucakjenggot" />
+        <activity
+            android:name=".Platuk"
+            android:label="@string/title_activity_platuk" />
+        <activity
+            android:name=".Satu"
+            android:label="@string/title_activity_satu" />
+        <activity
+            android:name=".Dua"
+            android:label="@string/title_activity_dua" />
+        <activity
+            android:name=".Tiga"
+            android:label="@string/title_activity_tiga" />
+        <activity
+            android:name=".Empat"
+            android:label="@string/title_activity_empat" />
+        <activity
+            android:name=".Lima"
+            android:label="@string/title_activity_lima" />
+        <activity
+            android:name=".Enam"
+            android:label="@string/title_activity_enam" />
+        <activity
+            android:name=".Tujuh"
+            android:label="@string/title_activity_tujuh" />
+        <activity
+            android:name=".Delapan"
+            android:label="@string/title_activity_delapan" />
+        <activity
+            android:name=".Sembilan"
+            android:label="@string/title_activity_sembilan" />
+        <activity
+            android:name=".Sepuluh"
+            android:label="@string/title_activity_sepuluh" />
+        <activity
+            android:name=".Sebelas"
+            android:label="@string/title_activity_sebelas" />
+        <activity
+            android:name=".Duabelas"
+            android:label="@string/title_activity_duabelas" />
+        <activity
+            android:name=".Tigabelas"
+            android:label="@string/title_activity_tigabelas" />
+        <activity
+            android:name=".Empatbelas"
+            android:label="@string/title_activity_empatbelas" />
+        <activity
+            android:name=".Limabelas"
+            android:label="@string/title_activity_limabelas" />
+        <activity
+            android:name=".Enambelas"
+            android:label="@string/title_activity_enambelas" />
+        <activity
+            android:name=".Tujuhbelas"
+            android:label="@string/title_activity_tujuhbelas" />
+        <activity
+            android:name=".Delapanbelas"
+            android:label="@string/title_activity_delapanbelas" />
+        <activity
+            android:name=".Sembilanbelas"
+            android:label="@string/title_activity_sembilanbelas" />
+        <activity
+            android:name=".Duapuluh"
+            android:label="@string/title_activity_duapuluh" />
+        <activity
+            android:name=".Duasatu"
+            android:label="@string/title_activity_duasatu"></activity>
     </application>
 
 </manifest>

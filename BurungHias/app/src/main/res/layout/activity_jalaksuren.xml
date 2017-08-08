@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jalaksuren"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="assalaam.calculator.id.burunghias.Jalaksuren"
+    android:background="@drawable/merpati">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="7) BURUNG JALAK SUREN"
+        android:textColor="#faf9f9"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:id="@+id/Jalaksuren"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/tujuh"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Burung jalak suren berukuran sedang sekitar 24 cm. Bulunya berwarna hitam dan putih. Bagian yang berwarna putih seperti dahi, pipi, garis sayap, tunggir dan perut. Sedangkan bulu di dada, tenggorokan, dan tubuh bagian atas berwarna hitam (coklat pada remaja). Iris mata burung jalak suren berwarna abu-abu. Kulit tanpa bulu disekitar mata berwarna jingga. Paruhnya berwarna merah dengan ujung putih. Sedangkan kaki berwarna kuning. Suaranya seperti teriakan yang ribut, sumbang dan riang.
+
+Keistimewaan Jalak suren dilambangkan sebagai burung jinak penjaga rumah. Dengan memelihara burung ini, rumah akan selalu terjaga setiap hari. Mungkin ada benarnya anggapan ini karena jalak suren merupakan burung yang sangat peka. Jika ada orang datang, akan bersuara nyaring dan bervariasi. Bisa dipahami kalau banyak orang yang memelihara burung ini. Memang dibutuhkan kesabaran dan membutuhkan waktu yang cukup, apalagi jika kita merawatnya sejak usia burung masih anakan. Bagaimana cara merawat burung jalak suren agar cepat bunyi dan gacor bisa dilihat disini, tentunya biasanya yang lebih gacor dan banyak variasi suaranya yang berjeniskelamin jantan."/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Harga burung jalak suren berkisar untuk saat ini antara Rp 400 ribu (bahan dan bakalan) - Rp 1.800 ribuan (tergantung kualitas)."/>
+    </LinearLayout>
+</ScrollView>
