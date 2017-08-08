@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Kacer"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -28,10 +28,44 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:src="@drawable/satu"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="30dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="332dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="360dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_marginTop="430dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -39,13 +73,9 @@
 
 Ada juga Kacer yang bersal dari daerah jawa barat yaitu Bogor dan sekitarnya , atau orang sering sebut dengan Kacer Jabar. Bedanya dengan kacer Jatim adalah separuh kebawah dari bagian dada berwarna putih hingga sampai ekor. Untuk lebih jelasnya bisa dilihat disini tentang Perbedaan Burung Kacer Jatim dan Kacer Jabar.
 
-Untuk menjaga agar tidak punah sebaiknya kita disarankan untuk mengembagbiakkan dengan cara menangkarkannya."/>
+Untuk menjaga agar tidak punah sebaiknya kita disarankan untuk mengembagbiakkan dengan cara menangkarkannya.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Harga burung kacer berkisar antara Rp 250 ribu - Rp 1.500 ribuan (tergantung kondsi)."/>
-    </LinearLayout>
+Harga burung kacer berkisar antara Rp 250 ribu - Rp 1.500 ribuan (tergantung kondsi)."/>
+
+    </RelativeLayout>
 </ScrollView>
