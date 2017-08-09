@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Cipoh"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,19 +31,48 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="352dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="380dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="440dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Yang akhir-akhir ini orang sedang mencarinya adalah burung yang satu ini, karena keunikan suaranya, dengan ukuran badan yang sedikit lebih besar dari burung pleci atau kacamata namun dengan model dan corak warna yang hampir sama. Akan semakin cakap lagi jika burung yang satu ini sudah rajin berbunyi dan gacor juga jinak yang akhir akhir ini burung ini pun sudah mulai banyak juga dilombakan di berbagai tempat.
 
-Dan Cara Merawat Burung Cipoh/Cipo/Sito Agar Cepat Berbunyi dan Gacor perlu perawatan yang sesuai dengan anjuran yang sudah banyak dishare oleh banyak pakar kicau mania silahkan bisa dibaca disini. Perbedaan jenis kelamin burung."/>
+Dan Cara Merawat Burung Cipoh/Cipo/Sito Agar Cepat Berbunyi dan Gacor perlu perawatan yang sesuai dengan anjuran yang sudah banyak dishare oleh banyak pakar kicau mania silahkan bisa dibaca disini. Perbedaan jenis kelamin burung.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Kisaran harga : Rp 30 ribu - Rp 70 ribu, harga pengecualian bisa sempat ada yang menjual dengan harga Rp 800 ribu."/>
-    </LinearLayout>
+Kisaran harga : Rp 30 ribu - Rp 70 ribu, harga pengecualian bisa sempat ada yang menjual dengan harga Rp 800 ribu."/>
+
+    </RelativeLayout>
 </ScrollView>

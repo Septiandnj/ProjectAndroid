@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Cucakjenggot"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,17 +31,46 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung ini masih termasuk bagian dari burung yang paling banyak dicari juga untuk saat ini. Secara fisik Cucak Jenggot hampir mirip dengan Trucukan dari warna bulu, ukuran badan, dan bentuk lainnya, namun bedanya ada jenggotnya."/>
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="372dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="399dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="470dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Kisaran harga dari Rp 150.000 - Rp 250.000 rupiah (harga normal)."/>
-    </LinearLayout>
+            android:text="Burung ini masih termasuk bagian dari burung yang paling banyak dicari juga untuk saat ini. Secara fisik Cucak Jenggot hampir mirip dengan Trucukan dari warna bulu, ukuran badan, dan bentuk lainnya, namun bedanya ada jenggotnya.
+
+            Kisaran harga dari Rp 150.000 - Rp 250.000 rupiah (harga normal)."/>
+
+    </RelativeLayout>
 </ScrollView>

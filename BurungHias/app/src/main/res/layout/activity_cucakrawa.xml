@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Cucakrawa"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,7 +31,40 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="232dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="260dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="330dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -39,13 +72,10 @@
 
 Cucak rawa biasa ditemukan di payapaya dan rawa rawa di sekitar sungai yang sepi, atau di tepi hutan. Sering bersembunyi di balik dedaunan dan hanya terdengar suaranya yang khas melengking. Suara lebih berat dan lebih keras dari umumnya cucak dan merbah. Siulan jernih, jelas, berirama baku yang merdu. Kerap kali terdengar bersahut sahutan. Di alam, burung ini memangsa aneka serangga, siput air, dan berbagai buah-buahan yang lunak seperti buah jenis-jenis beringin. Menyebar di dataran rendah dan perbukitan di Semenanjung Malaya, Sumatra (termasuk Nias), Kalimantan, dan Jawa bagian barat. Di Jawa Barat terdapat sampai ketinggian 800 m dpl., namun kini sudah sangat jarang akibat perburuan.
 
-Berukuran besar (28 cm), berkepala pucat dengan kumis hitam mencolok. Mahkota dan penutup telinga jingga jerami, punggung coklat zaitun dan bercoret putih. Sayap dan ekor coklat kehijauan, dagu dan tenggorokan putih. Dada abu-abu bercoret putih, perut abu-abu, tungging kuning. Iris kemerahan, paruh hitam, kaki coklat gelap."/>
+Berukuran besar (28 cm), berkepala pucat dengan kumis hitam mencolok. Mahkota dan penutup telinga jingga jerami, punggung coklat zaitun dan bercoret putih. Sayap dan ekor coklat kehijauan, dagu dan tenggorokan putih. Dada abu-abu bercoret putih, perut abu-abu, tungging kuning. Iris kemerahan, paruh hitam, kaki coklat gelap.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Harga burung Cucak Rawa berkisar antara Rp 2.000.000 - Rp 5 Jutaan (tergantung kualitas dan kondisi)."/>
-    </LinearLayout>
+
+Harga burung Cucak Rawa berkisar antara Rp 2.000.000 - Rp 5 Jutaan (tergantung kualitas dan kondisi)."/>
+
+    </RelativeLayout>
 </ScrollView>

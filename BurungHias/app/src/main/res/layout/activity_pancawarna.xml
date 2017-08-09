@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Pancawarna"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,21 +31,50 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Sicantik bersuara merdu itulah sebutan burung panca warna akar (Pitta guajana) mempunyai bulu dengan perpaduan 5 warna yang indah yakni kuning, oranye, coklat, biru dan hitam.Masih kerabat dam keluarga burung robin..jenis brung imut yang disukai oleh kalangan kerajaan di negeri cina."/>
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="232dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="260dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="330dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Harga Burung Pancawarna anakan 200.000
+            android:text="Sicantik bersuara merdu itulah sebutan burung panca warna akar (Pitta guajana) mempunyai bulu dengan perpaduan 5 warna yang indah yakni kuning, oranye, coklat, biru dan hitam.Masih kerabat dam keluarga burung robin..jenis brung imut yang disukai oleh kalangan kerajaan di negeri cina.
+
+            Harga Burung Pancawarna anakan 200.000
 Harga Burung Pancawarna dewasa 300.000
 Harga Burung Pancawarna ngeriwik 450.000
 Harga Burung Pancawarna gacor full 600.000
 (tergantung kualitas dan jenisnya)."/>
-    </LinearLayout>
+
+    </RelativeLayout>
 </ScrollView>

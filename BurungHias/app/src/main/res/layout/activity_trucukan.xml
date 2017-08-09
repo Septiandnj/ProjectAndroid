@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Trucukan"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,17 +31,46 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung yang satu ini bukan merupakan burung yang dalam kategori mahal dan bahkan keberadaannya pun terkadang tidak begitu dilirik oleh para penggemar kicau mania, karena selama ini belum pernah ada kontes, latber, atau lomba burung kicauan yang menyertakan burung trucukan / trocok, namun sebenarnya tidak kalah cekep suara ocehannya ketika sudah gacor dan pantas juga untuk kita miliki sekalipun sekedar untuk tambahan koleksi saja. Bagaimana cara merawat agar burung trucukan cepat bunyi dan gacor silahkan lihat disini. Tentunya biasanya yang variasi suaranya lebih adalah yang berjeniskelamin jantan."/>
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="302dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="330dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="390dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Kisaran harga dari Rp 20.000 - Rp 200.000 rupiah."/>
-    </LinearLayout>
+            android:text="Burung yang satu ini bukan merupakan burung yang dalam kategori mahal dan bahkan keberadaannya pun terkadang tidak begitu dilirik oleh para penggemar kicau mania, karena selama ini belum pernah ada kontes, latber, atau lomba burung kicauan yang menyertakan burung trucukan / trocok, namun sebenarnya tidak kalah cekep suara ocehannya ketika sudah gacor dan pantas juga untuk kita miliki sekalipun sekedar untuk tambahan koleksi saja. Bagaimana cara merawat agar burung trucukan cepat bunyi dan gacor silahkan lihat disini. Tentunya biasanya yang variasi suaranya lebih adalah yang berjeniskelamin jantan.
+
+            Kisaran harga dari Rp 20.000 - Rp 200.000 rupiah."/>
+
+    </RelativeLayout>
 </ScrollView>

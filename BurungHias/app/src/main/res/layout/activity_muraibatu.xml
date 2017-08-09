@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Muraibatu"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,19 +31,48 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="300dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="330dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="390dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Burung murai batu adalah burung berkicau cerdas terbaik yang sangat banyak penggemarnya. Burung murai batu disukai karena elegan dari penampilan dan suaranya serta gaya sombong penampilannya serta hebatnya lagi bisa menirukan suara burung-burung lainnya tanpa meninggalkan suara khasnya. Namun untuk membuat burung murai batu agar rajin berkicau dan gacor memang membutuhkan kesabaran dan keuletan serta banyak cara yang harus dilakukan dalam perawatannya.
 
-Jenis-jenis burung Murai Batu dan asal burung Murai Batu yang banyak dikenal di Indonesia adalah Burung Murai Batu Medan, Burung Murai Batu Aceh, Burung Murai Batu Lampung, Burung Murai Batu Aceh, Burung Murai Batu Jambi dan Burung Murai Batu Kalimantan/Borneo. Suara burung Murai Batu sangat merdu dan bervariasi. Burung Murai Batu terutama yang sangat terkenal yaitu murai batu medan adalah salah satu burung penyanyi terbaik yang akui oleh dunia dan dari segi harganyapun bervariasi."/>
+Jenis-jenis burung Murai Batu dan asal burung Murai Batu yang banyak dikenal di Indonesia adalah Burung Murai Batu Medan, Burung Murai Batu Aceh, Burung Murai Batu Lampung, Burung Murai Batu Aceh, Burung Murai Batu Jambi dan Burung Murai Batu Kalimantan/Borneo. Suara burung Murai Batu sangat merdu dan bervariasi. Burung Murai Batu terutama yang sangat terkenal yaitu murai batu medan adalah salah satu burung penyanyi terbaik yang akui oleh dunia dan dari segi harganyapun bervariasi.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Kisaran harga murai batu mulai dari Rp 500 ribu - Rp 3,5 juta (dari berbagai jenis dan tergantung kondisi), dan jika sudah gacor, sudah ikut kontes dan bahkan mendapat kategori juara harga bisa sampai Rp 40 juta bahkan bisa lebih."/>
-    </LinearLayout>
+Kisaran harga murai batu mulai dari Rp 500 ribu - Rp 3,5 juta (dari berbagai jenis dan tergantung kondisi), dan jika sudah gacor, sudah ikut kontes dan bahkan mendapat kategori juara harga bisa sampai Rp 40 juta bahkan bisa lebih."/>
+
+    </RelativeLayout>
 </ScrollView>

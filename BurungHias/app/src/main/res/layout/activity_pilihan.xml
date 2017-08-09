@@ -22,6 +22,11 @@
             android:textSize="20dp"
             android:textColor="#fcfbfb"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="270dip"/>
+
         <Button
         android:id="@+id/klik1"
         android:layout_width="wrap_content"
@@ -30,6 +35,11 @@
         android:background="#00000000"
         android:textColor="#fc0101"
             android:layout_marginTop="30dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik2"
@@ -40,6 +50,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik3"
             android:layout_width="wrap_content"
@@ -48,6 +63,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik4"
@@ -58,6 +78,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik5"
             android:layout_width="wrap_content"
@@ -66,6 +91,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik6"
@@ -76,6 +106,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik7"
             android:layout_width="wrap_content"
@@ -84,6 +119,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik8"
@@ -94,6 +134,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik9"
             android:layout_width="wrap_content"
@@ -102,6 +147,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik10"
@@ -112,6 +162,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik11"
             android:layout_width="wrap_content"
@@ -120,6 +175,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik12"
@@ -130,6 +190,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik13"
             android:layout_width="wrap_content"
@@ -138,6 +203,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik14"
@@ -148,6 +218,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik15"
             android:layout_width="wrap_content"
@@ -156,6 +231,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik16"
@@ -166,6 +246,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik17"
             android:layout_width="wrap_content"
@@ -174,6 +259,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik18"
@@ -184,6 +274,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik19"
             android:layout_width="wrap_content"
@@ -192,6 +287,11 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
 
         <Button
             android:id="@+id/klik20"
@@ -202,6 +302,11 @@
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
 
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
+
         <Button
             android:id="@+id/klik21"
             android:layout_width="wrap_content"
@@ -210,5 +315,10 @@
             android:background="#00000000"
             android:textColor="#fc0101"
             android:layout_marginTop="19dp"/>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090"
+            android:layout_width="wrap_content"/>
     </LinearLayout>
 </ScrollView>

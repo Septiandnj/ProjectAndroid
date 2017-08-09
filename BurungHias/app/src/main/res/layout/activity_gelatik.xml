@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Gelatik"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,19 +31,48 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="282dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="320dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="380dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Burung berwarna hitam dan putih dengan postur kecil ini saat ini lagi digandrungi oleh para banyak penghobi burung.
 
-Dengan suaranya yang khas yang melengking, sehingga akhirnya sering burung ini dijadikan sebagai burung master untuk isian burung-burung yang lain untuk mengkombinasikan suara burung yang lain biar lebih bervariasi ocehannya."/>
+Dengan suaranya yang khas yang melengking, sehingga akhirnya sering burung ini dijadikan sebagai burung master untuk isian burung-burung yang lain untuk mengkombinasikan suara burung yang lain biar lebih bervariasi ocehannya.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Harga Rp 75 rb - Rp 200 rb (bahan - sudah gacor), harga pengecualian bisa sampai Rp 700 ribu."/>
-    </LinearLayout>
+Harga Rp 75 rb - Rp 200 rb (bahan - sudah gacor), harga pengecualian bisa sampai Rp 700 ribu."/>
+
+    </RelativeLayout>
 </ScrollView>

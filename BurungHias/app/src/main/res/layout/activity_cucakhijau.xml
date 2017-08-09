@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Cucakhijau"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -30,8 +30,41 @@
         android:src="@drawable/delapan"
         android:layout_marginTop="20dp"/>
 
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="360dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="390dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
     <TextView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="450dp"
         android:textSize="20dp"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -39,13 +72,9 @@
 
 Burung ini senang hidup di hutan lebat. Di Indonesia terutama di daerah Malang, Banyuwangi, dan Kepulauan Sunda Besar terdapat banyak jenis burung Cucak Ijo. Di Jawa dan Bali terdapat tiga jenis, sedangkan di Kepulauan Sunda Besar ada tujuh jenis.
 
-Burung Cucak Ijo atau ada juga disebut Cipo, ada Cipo Jantung dan Cipo Kucat. Jenis ini merupakan kelompok Genus Aeghitina. Sedangkan jenis lainenya adalah Cica Daun Kecil dan Cica Daun Besar, atau umumnya disebut Cucak Ijo dan Cucak Ijo Mini."/>
+Burung Cucak Ijo atau ada juga disebut Cipo, ada Cipo Jantung dan Cipo Kucat. Jenis ini merupakan kelompok Genus Aeghitina. Sedangkan jenis lainenya adalah Cica Daun Kecil dan Cica Daun Besar, atau umumnya disebut Cucak Ijo dan Cucak Ijo Mini.
 
-    <TextView
-        android:layout_marginTop="30dp"
-        android:textSize="20dp"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:text="Harga burung Cucak Ijo untuk saat ini berkisar antara Rp 500 ribu - Rp 900 ribu (tergantung kondisi dan di kawasan mana)."/>
-    </LinearLayout>
+Harga burung Cucak Ijo untuk saat ini berkisar antara Rp 500 ribu - Rp 900 ribu (tergantung kondisi dan di kawasan mana)."/>
+
+    </RelativeLayout>
 </ScrollView>

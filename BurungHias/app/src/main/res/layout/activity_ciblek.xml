@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Ciblek"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,7 +31,40 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="232dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="260dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="330dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -39,13 +72,9 @@
 
 Untuk jantan dewasa bagian bawah paruhnya berwarna full hitam dan mata yang memerah menandakan bahwa burung tersebut sudah dewasa. Perbedaan Jantan dan betina juga bisa diketahui dari suara yang dikeluarkan burung ciblek tersebut. Burung jantan akan mengeluarkan suara yang bervariasi namun monoton dengan tembakan ciri khasnya ' ciklak .. ciklak .. ciklak ' dan biasanya diselingin dengan tembakan rapat ' crecetetet... ' dan burung jantan akan langsung bereaksi begitu melihat burung lain sesama jenisnya, sedangkan burung betina bersuara monoton dan hanya membalas tembakan dari sang jantan 'ciap ciap ciap' dan sering bersuara memanggil ' ci ci ci.
 
-        Rasa senang bisa kita rasakan jika burung sudah gacor."/>
+        Rasa senang bisa kita rasakan jika burung sudah gacor.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Harga burung ciblek untuk saat ini berkisar antara Rp 30 ribu - Rp 700 ribuan (tergantung kualitas dan jenisnya)."/>
-    </LinearLayout>
+        Harga burung ciblek untuk saat ini berkisar antara Rp 30 ribu - Rp 700 ribuan (tergantung kualitas dan jenisnya)."/>
+
+    </RelativeLayout>
 </ScrollView>

@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Lavbed"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,7 +31,40 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="195dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="230dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="290dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -39,13 +72,9 @@
 
 Dengan suara yang unik burung ini bisa menarik para penghobi burung untuk ikut memeliharanya baik yang  sengaja untuk memiliki untuk dijadikan burung perlombaan ataupun hanya sekedar sebagai hewan peliharaan saja.
 
-Beternak love bird juga tidak terlalu sulit, dengan menggunakan kandang yang berukuran 60x40x30 saja sudah cukup."/>
+Beternak love bird juga tidak terlalu sulit, dengan menggunakan kandang yang berukuran 60x40x30 saja sudah cukup.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Harga burung love bird untuk saat ini berkisar antara Rp 400 ribu - Rp 1.200 ribu (tergantung jenis dan kualitasnya)."/>
-    </LinearLayout>
+Harga burung love bird untuk saat ini berkisar antara Rp 400 ribu - Rp 1.200 ribu (tergantung jenis dan kualitasnya)."/>
+
+    </RelativeLayout>
 </ScrollView>

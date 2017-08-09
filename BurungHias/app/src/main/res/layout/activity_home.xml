@@ -25,9 +25,9 @@
             android:textStyle="italic"/>
 
     <ImageButton
-        android:layout_width="200px"
+        android:layout_width="170px"
         android:layout_height="150px"
-        android:background="@android:drawable/ic_menu_info_details"
+        android:background="@drawable/uuu"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -48,7 +48,7 @@
         android:layout_height="150px"
         android:layout_marginTop="280dp"
         android:id="@+id/jenis"
-        android:background="@drawable/button"
+        android:background="@drawable/yyy"
         android:textColor="#000"
         android:textSize="25dp"
         tools:fontFamily="casual"
@@ -58,7 +58,7 @@
     <ImageButton
         android:layout_width="200px"
         android:layout_height="150px"
-        android:background="@drawable/assalaam"
+        android:background="@drawable/sss"
         android:id="@+id/link"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"

@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Jalaksuren"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -30,20 +30,49 @@
         android:src="@drawable/tujuh"
         android:layout_marginTop="20dp"/>
 
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="365dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="399dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
     <TextView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="470dp"
         android:textSize="20dp"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:text="Burung jalak suren berukuran sedang sekitar 24 cm. Bulunya berwarna hitam dan putih. Bagian yang berwarna putih seperti dahi, pipi, garis sayap, tunggir dan perut. Sedangkan bulu di dada, tenggorokan, dan tubuh bagian atas berwarna hitam (coklat pada remaja). Iris mata burung jalak suren berwarna abu-abu. Kulit tanpa bulu disekitar mata berwarna jingga. Paruhnya berwarna merah dengan ujung putih. Sedangkan kaki berwarna kuning. Suaranya seperti teriakan yang ribut, sumbang dan riang.
 
-Keistimewaan Jalak suren dilambangkan sebagai burung jinak penjaga rumah. Dengan memelihara burung ini, rumah akan selalu terjaga setiap hari. Mungkin ada benarnya anggapan ini karena jalak suren merupakan burung yang sangat peka. Jika ada orang datang, akan bersuara nyaring dan bervariasi. Bisa dipahami kalau banyak orang yang memelihara burung ini. Memang dibutuhkan kesabaran dan membutuhkan waktu yang cukup, apalagi jika kita merawatnya sejak usia burung masih anakan. Bagaimana cara merawat burung jalak suren agar cepat bunyi dan gacor bisa dilihat disini, tentunya biasanya yang lebih gacor dan banyak variasi suaranya yang berjeniskelamin jantan."/>
+Keistimewaan Jalak suren dilambangkan sebagai burung jinak penjaga rumah. Dengan memelihara burung ini, rumah akan selalu terjaga setiap hari. Mungkin ada benarnya anggapan ini karena jalak suren merupakan burung yang sangat peka. Jika ada orang datang, akan bersuara nyaring dan bervariasi. Bisa dipahami kalau banyak orang yang memelihara burung ini. Memang dibutuhkan kesabaran dan membutuhkan waktu yang cukup, apalagi jika kita merawatnya sejak usia burung masih anakan. Bagaimana cara merawat burung jalak suren agar cepat bunyi dan gacor bisa dilihat disini, tentunya biasanya yang lebih gacor dan banyak variasi suaranya yang berjeniskelamin jantan.
 
-    <TextView
-        android:layout_marginTop="30dp"
-        android:textSize="20dp"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:text="Harga burung jalak suren berkisar untuk saat ini antara Rp 400 ribu (bahan dan bakalan) - Rp 1.800 ribuan (tergantung kualitas)."/>
-    </LinearLayout>
+Harga burung jalak suren berkisar untuk saat ini antara Rp 400 ribu (bahan dan bakalan) - Rp 1.800 ribuan (tergantung kualitas)."/>
+
+    </RelativeLayout>
 </ScrollView>

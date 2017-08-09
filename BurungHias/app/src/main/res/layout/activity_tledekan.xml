@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Tledekan"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,17 +31,46 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung tledekan atau disebut juga burung sulingan gunung. Burung tledekan jantan, pada bagian kepala ada warna biru cerah, sedangkan pada bagian belakang ada warna biru tua, dan untuk membedakan jenis kelamin Jantan dan Betina bisa dilihat disini. Pada sekitar mata terdapat kedok hitam, Memiliki satu jakun yang berwarna hitam, Pada perut terdapat warna jeruk yang bersinar namun pada genus tertentu seperti vivid niltava berwarna ungu kebiruan."/>
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="310dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="350dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="420dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Harga burung tledekan untuk saat ini antara Rp 40 ribu - Rp 200 ribu rupiah."/>
-    </LinearLayout>
+            android:text="Burung tledekan atau disebut juga burung sulingan gunung. Burung tledekan jantan, pada bagian kepala ada warna biru cerah, sedangkan pada bagian belakang ada warna biru tua, dan untuk membedakan jenis kelamin Jantan dan Betina bisa dilihat disini. Pada sekitar mata terdapat kedok hitam, Memiliki satu jakun yang berwarna hitam, Pada perut terdapat warna jeruk yang bersinar namun pada genus tertentu seperti vivid niltava berwarna ungu kebiruan.
+
+            Harga burung tledekan untuk saat ini antara Rp 40 ribu - Rp 200 ribu rupiah."/>
+
+    </RelativeLayout>
 </ScrollView>

@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Kolibri"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,17 +31,46 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Kolibri ini yang paling dicari untuk saat ini, karena suaranya yang lebih bervariasi sehingga harganya pun paling mahal untuk sekelas kolibri. Adapun jenis kolibri lainnya diantaranya adalah, Kolibri Wulung, Kolibri Kelapa, Kolibri Hitam, Kolibri Jawa, Kolibri Gunung, Kolibri Tasik, Kolibri Sepah Raja dan tentunya masih ada jenis burung lain lagi dalam perkembangan perburungan yang mungkin suatu saat akan menjadi primadona bagi para poenghobi kicau mania."/>
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="372dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="399dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="460dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Kisaran harga: Rp 100 ribu - Rp 450 ribu."/>
-    </LinearLayout>
+            android:text="Kolibri ini yang paling dicari untuk saat ini, karena suaranya yang lebih bervariasi sehingga harganya pun paling mahal untuk sekelas kolibri. Adapun jenis kolibri lainnya diantaranya adalah, Kolibri Wulung, Kolibri Kelapa, Kolibri Hitam, Kolibri Jawa, Kolibri Gunung, Kolibri Tasik, Kolibri Sepah Raja dan tentunya masih ada jenis burung lain lagi dalam perkembangan perburungan yang mungkin suatu saat akan menjadi primadona bagi para poenghobi kicau mania.
+
+            Kisaran harga: Rp 100 ribu - Rp 450 ribu."/>
+
+    </RelativeLayout>
 </ScrollView>

@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Aniskembang"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,24 +31,53 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="232dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="260dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="330dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Anis Kembang (Zoothera interpres) merupakan salah satu burung favorit para pecinta burung. Selain merdu dan keras burung ini juga lebih sering berkicau.
 
-Ciri-ciri burung anis kembang adalah warna bulu yang seperti bercak bintik yang terdiri dari warna hitam dan putih pada sayapnya, sedangkan warna bulu kepala, bentuk paruh yang berpangkal lebar, tebal, besar dan panjang dan berwarna coklat. Anis kembang termasuk tipe burung yang sensitif sehingga membutuhkan kesabaran dan waktu yang untuk memelihara burung ini. Namun burung ini mempunyai sifat manja, sehingga burung ini mudah jinak pada pemiliknya."/>
+Ciri-ciri burung anis kembang adalah warna bulu yang seperti bercak bintik yang terdiri dari warna hitam dan putih pada sayapnya, sedangkan warna bulu kepala, bentuk paruh yang berpangkal lebar, tebal, besar dan panjang dan berwarna coklat. Anis kembang termasuk tipe burung yang sensitif sehingga membutuhkan kesabaran dan waktu yang untuk memelihara burung ini. Namun burung ini mempunyai sifat manja, sehingga burung ini mudah jinak pada pemiliknya.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Harga anis kembang gacor umumnya dipasang Rp. 1.500.00
+Harga anis kembang gacor umumnya dipasang Rp. 1.500.00
 Anis kembang yang sudah gacor ngerol bisa mencapai Rp. 2.300.000
 Harga anis kembang jantan mulai dari Rp. 950 rb
 Anis kembang betina pilihan biasanya dijual dengan harga Rp. 750
 Harga anis kembang trotolan ring ngriwik bisa sampai Rp. 850 rb
 Anis kembang bakalan ngevoer ngriwik keras bisa ditawarkan hingga Rp. 888.000."/>
-    </LinearLayout>
+
+    </RelativeLayout>
 </ScrollView>

@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Branjangan"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,20 +31,47 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="248dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="280dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="350dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Branjangan mempunyai kicauan yang nyaring dan pandai menirukan suara burung lain. Branjangan merupakan burung persawahan/ladang yang suka hidup di area terbuka berumput.
-Burung Branjangan adalah burung dari bangsa Passeriformes dari famili Alaudidae yang terkenal dapat bernyanyi dengan indahnya. Kepiawaiannya dalam meniru suara burung lain serta gaya bertarungnya dengan cara mengepakan sayap (istilah : ngeper) semakin menambah kesukaan orang untuk memelihara burung ini."/>
+Burung Branjangan adalah burung dari bangsa Passeriformes dari famili Alaudidae yang terkenal dapat bernyanyi dengan indahnya. Kepiawaiannya dalam meniru suara burung lain serta gaya bertarungnya dengan cara mengepakan sayap (istilah : ngeper) semakin menambah kesukaan orang untuk memelihara burung ini.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Harga: Berkisar antara Rp 100 ribu - Rp 900 ribuan (tergantung kualitas)."/>
+Harga: Berkisar antara Rp 100 ribu - Rp 900 ribuan (tergantung kualitas)."/>
 
-
-    </LinearLayout>
+    </RelativeLayout>
 </ScrollView>

@@ -11,7 +11,7 @@
     tools:context="assalaam.calculator.id.burunghias.Pleci"
     android:background="@drawable/merpati">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
@@ -31,21 +31,50 @@
             android:layout_marginTop="20dp"/>
 
         <TextView
-            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Mainkan Suaranya :"
+            android:layout_marginTop="232dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            android:id="@+id/btnPLAY"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/btnPAUSE"
+            android:layout_toStartOf="@+id/btnPAUSE"
+            android:layout_marginTop="260dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STOP"
+            android:id="@+id/btnSTOP"
+            android:layout_alignTop="@+id/btnPAUSE"
+            android:layout_toRightOf="@+id/btnPAUSE"
+            android:layout_toEndOf="@+id/btnPAUSE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAUSE"
+            android:id="@+id/btnPAUSE"
+            android:layout_alignTop="@+id/btnPLAY"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="330dp"
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Burung yang satu ini sekalipun bentuk badannya kecil dengan warna bulu yang hampir bisa dibilang tidak ada warna jenis lain kecuali hanya kuning dan hijau lumut dan sedikit hitam, berbeda jika dibandingkan dengan kenari yang sangat beragam warnanya dari mulai kuning, orange, putih, warna lemon, coklat campur, variasi warna coklat dan kuning, merah, putih dan banyak warna lainnya, saat ini burung pleci juga paling digemari oleh banyak orang. Apalagi jika sudah gacor dan ngelpong, memang membutuhkan kesabaran dan ketelatenan untuk membuat burung pleci bisa gacor dan ngeplong.
 
-Sekalipun kecil, karena dengan keunikan suara ocehannya saat ini sangat sering diikutsertakan dalam lomba burung kicauan."/>
+Sekalipun kecil, karena dengan keunikan suara ocehannya saat ini sangat sering diikutsertakan dalam lomba burung kicauan.
 
-        <TextView
-            android:layout_marginTop="30dp"
-            android:textSize="20dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:text="Harga burung pleci berkisar antara Rp 20 ribu (bahan dan muda) - Rp 200 ribu (harga normal) : pengecualian jika sudah pernah dapat nama bisa sampai Rp 900 ribuan bahkan sampai jutaan (tergantung kualitas)."/>
-    </LinearLayout>
+Harga burung pleci berkisar antara Rp 20 ribu (bahan dan muda) - Rp 200 ribu (harga normal) : pengecualian jika sudah pernah dapat nama bisa sampai Rp 900 ribuan bahkan sampai jutaan (tergantung kualitas)."/>
+
+    </RelativeLayout>
 
 
 </ScrollView>
