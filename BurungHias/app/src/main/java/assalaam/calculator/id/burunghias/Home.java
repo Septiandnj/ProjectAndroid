@@ -11,7 +11,6 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class Home extends Activity implements View.OnClickListener {
-    Button keluar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
