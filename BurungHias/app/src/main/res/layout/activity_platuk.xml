@@ -68,14 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Pada beberapa tahun yang lalu ketika orang belum kenal dengan aneka macam hewan peliharaan terutama yang menyangkut tentang burung, burung yang satu ini sama sekali tidak hiraukan oleh orang untuk coba memilikinya sekalipun dikasih oleh orang lain, namun pada akhir-akhir ini dengan berkembangnya peminat burung dari mulai burung yang memang sudah terkenal dengan suara kicauannya yang sangat cantik yang enak didengarkan sehingga dapat memanjakan telinga dan akhirnya ketika orang sudah mulai banyak dikenal oleh para penggemar burung (kicau mania) harga burung langsung secara drastis melonjak tinggi seperti murai batu, kacer, cucak hijau, jalak suren, kenari dan juga berbagai jenis burung lain yang sangat banyak kita jumpai.
-
-Burung platuk. Burung ini memang dulunya tidak ada orang yang suka, namun karena keunikannya saat ini banyak juga yang menggemari dan memeliharanya baik sekedar untuk dijadikan bahan master burung lain maupun untuk dipelihara sebagai tambahan koleksi burung yang dimilikinya.
-
-Harga Pelatuk Batu	Rp. 50.000
-Harga Pelatuk Brambang	Rp. 125.000
-Harga Pelatuk Sampit	Rp. 170.000 – Rp. 200.000
-Harga Pelatuk Bawang	Rp. 800.000."/>
+            android:text="@string/prev_platuk"/>
 
     </RelativeLayout>
 </ScrollView>

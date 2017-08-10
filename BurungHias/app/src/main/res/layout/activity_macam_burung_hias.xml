@@ -12,14 +12,13 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/background"
-        android:scaleType="fitXY"/>
+        android:background="@drawable/background"/>
 
     <TextView
         android:text="Welcome To My App"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tvSplash"
+        android:id="@+id/aaa"
         android:textSize="30sp"
         android:textAlignment="center"
         android:fontFamily="sans-serif-smallcaps"

@@ -68,13 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Anis Merah sering disebut juga sebagai Punglor Merah, Punglor Cacing, Anis Bata, atau Punglor Bata. Burung ini termasuk burung yang sangat populer bagi peghobi kicauan beberapa tahun lalu dengan gaya telernya yang sangat menarik perhatian setiap yang melihatnya.
-
-
-
-Anis merah jantan akan terlihat mendongak dongakkan kepala jika bertemu anis merah lain. Sedangkan anis merah betina tidak, Kalau anis merah betina sedang birahi, maka jika bertemu anis merah jantan yang sedang bernyanyi atau teler, dia akan menggetar getarkan sayap dan mendongak sembari bersiul kira kira begini bunyinya chiiirrr.
-
-Harga Anis Merah berkisar antara Rp 500 ribu - Rp 800 ribuan (tergantung kondisi dan kualitas)."/>
+            android:text="@string/prev_anismerah"/>
 
     </RelativeLayout>
 </ScrollView>

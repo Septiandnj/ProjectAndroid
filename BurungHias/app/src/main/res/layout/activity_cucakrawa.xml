@@ -68,14 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung ini dikenal umum sebagai cucakrawa (cucakrowo : bahasa jawa), cangkurawah (Sunda), dan barau-barau (Melayu). Dalam bahasa Inggris disebut Straw-headed Bulbul, mengacu pada warna kepalanya yang kuning-jerami pucat.
-
-Cucak rawa biasa ditemukan di payapaya dan rawa rawa di sekitar sungai yang sepi, atau di tepi hutan. Sering bersembunyi di balik dedaunan dan hanya terdengar suaranya yang khas melengking. Suara lebih berat dan lebih keras dari umumnya cucak dan merbah. Siulan jernih, jelas, berirama baku yang merdu. Kerap kali terdengar bersahut sahutan. Di alam, burung ini memangsa aneka serangga, siput air, dan berbagai buah-buahan yang lunak seperti buah jenis-jenis beringin. Menyebar di dataran rendah dan perbukitan di Semenanjung Malaya, Sumatra (termasuk Nias), Kalimantan, dan Jawa bagian barat. Di Jawa Barat terdapat sampai ketinggian 800 m dpl., namun kini sudah sangat jarang akibat perburuan.
-
-Berukuran besar (28 cm), berkepala pucat dengan kumis hitam mencolok. Mahkota dan penutup telinga jingga jerami, punggung coklat zaitun dan bercoret putih. Sayap dan ekor coklat kehijauan, dagu dan tenggorokan putih. Dada abu-abu bercoret putih, perut abu-abu, tungging kuning. Iris kemerahan, paruh hitam, kaki coklat gelap.
-
-
-Harga burung Cucak Rawa berkisar antara Rp 2.000.000 - Rp 5 Jutaan (tergantung kualitas dan kondisi)."/>
+            android:text="@string/prev_cucakrawa"/>
 
     </RelativeLayout>
 </ScrollView>

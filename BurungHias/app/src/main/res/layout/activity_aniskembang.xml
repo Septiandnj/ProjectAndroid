@@ -68,16 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Anis Kembang (Zoothera interpres) merupakan salah satu burung favorit para pecinta burung. Selain merdu dan keras burung ini juga lebih sering berkicau.
-
-Ciri-ciri burung anis kembang adalah warna bulu yang seperti bercak bintik yang terdiri dari warna hitam dan putih pada sayapnya, sedangkan warna bulu kepala, bentuk paruh yang berpangkal lebar, tebal, besar dan panjang dan berwarna coklat. Anis kembang termasuk tipe burung yang sensitif sehingga membutuhkan kesabaran dan waktu yang untuk memelihara burung ini. Namun burung ini mempunyai sifat manja, sehingga burung ini mudah jinak pada pemiliknya.
-
-Harga anis kembang gacor umumnya dipasang Rp. 1.500.00
-Anis kembang yang sudah gacor ngerol bisa mencapai Rp. 2.300.000
-Harga anis kembang jantan mulai dari Rp. 950 rb
-Anis kembang betina pilihan biasanya dijual dengan harga Rp. 750
-Harga anis kembang trotolan ring ngriwik bisa sampai Rp. 850 rb
-Anis kembang bakalan ngevoer ngriwik keras bisa ditawarkan hingga Rp. 888.000."/>
+            android:text="@string/prev_aniskembang"/>
 
     </RelativeLayout>
 </ScrollView>

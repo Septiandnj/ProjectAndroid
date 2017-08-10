@@ -68,13 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Ciblek dikenal juga sebagai perenjak jawa. Burung ini termasuk burung endemik jawa, Sumatera, dan Bali. Burung Ciblek jantan ataupun betina bisa diketahui dari fisik dan warna paruh bagian bawah bulu tubuhnya.
-
-Untuk jantan dewasa bagian bawah paruhnya berwarna full hitam dan mata yang memerah menandakan bahwa burung tersebut sudah dewasa. Perbedaan Jantan dan betina juga bisa diketahui dari suara yang dikeluarkan burung ciblek tersebut. Burung jantan akan mengeluarkan suara yang bervariasi namun monoton dengan tembakan ciri khasnya ' ciklak .. ciklak .. ciklak ' dan biasanya diselingin dengan tembakan rapat ' crecetetet... ' dan burung jantan akan langsung bereaksi begitu melihat burung lain sesama jenisnya, sedangkan burung betina bersuara monoton dan hanya membalas tembakan dari sang jantan 'ciap ciap ciap' dan sering bersuara memanggil ' ci ci ci.
-
-        Rasa senang bisa kita rasakan jika burung sudah gacor.
-
-        Harga burung ciblek untuk saat ini berkisar antara Rp 30 ribu - Rp 700 ribuan (tergantung kualitas dan jenisnya)."/>
+            android:text="@string/prev_blake"/>
 
     </RelativeLayout>
 </ScrollView>

@@ -68,11 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung pentent merupakan burung yang secara postur ukurannya agak sedikit kurang simetris, karena bagian kepala lebih besar dibandingkan dengan ukuran ekor yang relatif kecil, namun demikian pentet/plentet/cendet ini banyak juga yang berminta memeliharanya karena selain warnanya yang indah suaranya pun sangat enak dan merdu untuk diperdengarkan.
-
-Burung pentet untuk saat ini adalah merupakan salah satu jenis burung yang sedang banyak digemari oleh para penghobi burung (kicau mania) karena dengan alasan tadi, dan seiring dengan ramainya perburungan maka banyak juga kalangan yang sering mengadakan kontes lomba burung pentet.
-
-Harga burung pentet relatif cukup murah jika dibandingkan dengan kenari, kacer dan murai batu, untuk saat ini sekitar Rp 130 ribu - Rp 600 rb (tergantung kondisi dan fisik burung)."/>
+            android:text="@string/prev_pentet"/>
 
     </RelativeLayout>
 </ScrollView>

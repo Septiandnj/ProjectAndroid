@@ -68,10 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Branjangan mempunyai kicauan yang nyaring dan pandai menirukan suara burung lain. Branjangan merupakan burung persawahan/ladang yang suka hidup di area terbuka berumput.
-Burung Branjangan adalah burung dari bangsa Passeriformes dari famili Alaudidae yang terkenal dapat bernyanyi dengan indahnya. Kepiawaiannya dalam meniru suara burung lain serta gaya bertarungnya dengan cara mengepakan sayap (istilah : ngeper) semakin menambah kesukaan orang untuk memelihara burung ini.
-
-Harga: Berkisar antara Rp 100 ribu - Rp 900 ribuan (tergantung kualitas)."/>
+            android:text="@string/prev_branjangan"/>
 
     </RelativeLayout>
 </ScrollView>

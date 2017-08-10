@@ -19,7 +19,7 @@ public class MacamBurungHias extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_macam_burung_hias);
 
-        tvSplash = (TextView) findViewById(R.id.tvSplash);
+        tvSplash = (TextView) findViewById(R.id.aaa);
 
 
         final Handler handler = new Handler();

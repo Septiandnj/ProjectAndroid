@@ -68,9 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung yang satu ini bukan merupakan burung yang dalam kategori mahal dan bahkan keberadaannya pun terkadang tidak begitu dilirik oleh para penggemar kicau mania, karena selama ini belum pernah ada kontes, latber, atau lomba burung kicauan yang menyertakan burung trucukan / trocok, namun sebenarnya tidak kalah cekep suara ocehannya ketika sudah gacor dan pantas juga untuk kita miliki sekalipun sekedar untuk tambahan koleksi saja. Bagaimana cara merawat agar burung trucukan cepat bunyi dan gacor silahkan lihat disini. Tentunya biasanya yang variasi suaranya lebih adalah yang berjeniskelamin jantan.
-
-            Kisaran harga dari Rp 20.000 - Rp 200.000 rupiah."/>
+            android:text="@string/prev_trucukan"/>
 
     </RelativeLayout>
 </ScrollView>

@@ -68,9 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung ini masih termasuk bagian dari burung yang paling banyak dicari juga untuk saat ini. Secara fisik Cucak Jenggot hampir mirip dengan Trucukan dari warna bulu, ukuran badan, dan bentuk lainnya, namun bedanya ada jenggotnya.
-
-            Kisaran harga dari Rp 150.000 - Rp 250.000 rupiah (harga normal)."/>
+            android:text="@string/prev_cucakjenggot"/>
 
     </RelativeLayout>
 </ScrollView>

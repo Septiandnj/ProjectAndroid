@@ -68,9 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung tledekan atau disebut juga burung sulingan gunung. Burung tledekan jantan, pada bagian kepala ada warna biru cerah, sedangkan pada bagian belakang ada warna biru tua, dan untuk membedakan jenis kelamin Jantan dan Betina bisa dilihat disini. Pada sekitar mata terdapat kedok hitam, Memiliki satu jakun yang berwarna hitam, Pada perut terdapat warna jeruk yang bersinar namun pada genus tertentu seperti vivid niltava berwarna ungu kebiruan.
-
-            Harga burung tledekan untuk saat ini antara Rp 40 ribu - Rp 200 ribu rupiah."/>
+            android:text="@string/prev_tledekan"/>
 
     </RelativeLayout>
 </ScrollView>

@@ -68,13 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Sicantik bersuara merdu itulah sebutan burung panca warna akar (Pitta guajana) mempunyai bulu dengan perpaduan 5 warna yang indah yakni kuning, oranye, coklat, biru dan hitam.Masih kerabat dam keluarga burung robin..jenis brung imut yang disukai oleh kalangan kerajaan di negeri cina.
-
-            Harga Burung Pancawarna anakan 200.000
-Harga Burung Pancawarna dewasa 300.000
-Harga Burung Pancawarna ngeriwik 450.000
-Harga Burung Pancawarna gacor full 600.000
-(tergantung kualitas dan jenisnya)."/>
+            android:text="@string/prev_pancawarna"/>
 
     </RelativeLayout>
 </ScrollView>

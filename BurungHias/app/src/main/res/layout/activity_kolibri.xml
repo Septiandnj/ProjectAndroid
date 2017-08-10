@@ -68,9 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Kolibri ini yang paling dicari untuk saat ini, karena suaranya yang lebih bervariasi sehingga harganya pun paling mahal untuk sekelas kolibri. Adapun jenis kolibri lainnya diantaranya adalah, Kolibri Wulung, Kolibri Kelapa, Kolibri Hitam, Kolibri Jawa, Kolibri Gunung, Kolibri Tasik, Kolibri Sepah Raja dan tentunya masih ada jenis burung lain lagi dalam perkembangan perburungan yang mungkin suatu saat akan menjadi primadona bagi para poenghobi kicau mania.
-
-            Kisaran harga: Rp 100 ribu - Rp 450 ribu."/>
+            android:text="@string/prev_kolibri"/>
 
     </RelativeLayout>
 </ScrollView>

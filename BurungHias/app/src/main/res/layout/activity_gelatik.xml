@@ -68,11 +68,7 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="Burung berwarna hitam dan putih dengan postur kecil ini saat ini lagi digandrungi oleh para banyak penghobi burung.
-
-Dengan suaranya yang khas yang melengking, sehingga akhirnya sering burung ini dijadikan sebagai burung master untuk isian burung-burung yang lain untuk mengkombinasikan suara burung yang lain biar lebih bervariasi ocehannya.
-
-Harga Rp 75 rb - Rp 200 rb (bahan - sudah gacor), harga pengecualian bisa sampai Rp 700 ribu."/>
+            android:text="@string/prev_gelatik"/>
 
     </RelativeLayout>
 </ScrollView>
