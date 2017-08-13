@@ -126,4 +126,9 @@ public class Anismerah extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Anismerah.this.finish();
+    }
 }

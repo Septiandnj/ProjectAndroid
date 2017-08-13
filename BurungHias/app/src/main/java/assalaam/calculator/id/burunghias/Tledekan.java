@@ -126,4 +126,9 @@ public class Tledekan extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Tledekan.this.finish();
+    }
 }

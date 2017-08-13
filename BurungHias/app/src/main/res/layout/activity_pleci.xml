@@ -68,7 +68,8 @@
             android:textSize="20dp"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="@string/prev_pleci"/>
+            android:text="@string/prev_pleci"
+            android:fontFamily="serif" />
 
     </RelativeLayout>
 

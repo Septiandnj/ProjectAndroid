@@ -126,4 +126,9 @@ public class Jalaksuren extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Jalaksuren.this.finish();
+    }
 }

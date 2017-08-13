@@ -126,4 +126,9 @@ public class Branjangan extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Branjangan.this.finish();
+    }
 }

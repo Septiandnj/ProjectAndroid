@@ -126,4 +126,9 @@ public class Lavbed extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Lavbed.this.finish();
+    }
 }

@@ -126,4 +126,9 @@ public class Cucakrawa extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Cucakrawa.this.finish();
+    }
 }

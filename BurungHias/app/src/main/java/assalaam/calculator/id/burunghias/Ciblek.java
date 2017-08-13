@@ -126,4 +126,9 @@ public class Ciblek extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Ciblek.this.finish();
+    }
 }

@@ -126,4 +126,9 @@ public class Pancawarna extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Pancawarna.this.finish();
+    }
 }

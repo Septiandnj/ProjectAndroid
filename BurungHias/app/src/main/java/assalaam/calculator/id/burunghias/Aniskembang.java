@@ -125,4 +125,10 @@ public class Aniskembang extends Activity {
 
         stateAwal();
     }
+
+    public void onBackPressed()
+    {
+        mp.stop();
+        Aniskembang.this.finish();
+    }
 }

@@ -125,4 +125,10 @@ public class Cucakjenggot extends Activity {
 
         stateAwal();
     }
+
+    public void onBackPressed()
+    {
+        mp.stop();
+        Cucakjenggot.this.finish();
+    }
 }

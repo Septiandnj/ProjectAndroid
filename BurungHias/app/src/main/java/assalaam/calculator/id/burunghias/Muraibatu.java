@@ -126,4 +126,9 @@ public class Muraibatu extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Muraibatu.this.finish();
+    }
 }

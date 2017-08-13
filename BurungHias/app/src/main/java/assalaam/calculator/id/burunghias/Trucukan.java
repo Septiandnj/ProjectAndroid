@@ -126,4 +126,9 @@ public class Trucukan extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Trucukan.this.finish();
+    }
 }

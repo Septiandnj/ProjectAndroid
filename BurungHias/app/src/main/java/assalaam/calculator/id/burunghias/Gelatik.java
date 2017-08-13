@@ -126,4 +126,9 @@ public class Gelatik extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Gelatik.this.finish();
+    }
 }

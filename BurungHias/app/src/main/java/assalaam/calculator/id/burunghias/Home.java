@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class Home extends Activity implements View.OnClickListener {
+    public Home mp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +61,25 @@ public class Home extends Activity implements View.OnClickListener {
     }
 
     private void exit() {
+        AlertDialog.Builder builder = new  AlertDialog.Builder(this);
+        builder.setMessage("Apakah Kamu Benar-Benar Ingin Keluar?")
+                .setCancelable(false)
+                .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        Home.this.finish();
+                    }
+                })
+                .setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int arg1) {
+                        // TODO Auto-generated method stub
+                        dialog.cancel();
+                    }
+                }).show();
+    }
+
+    public void onBackPressed()
+    {
         AlertDialog.Builder builder = new  AlertDialog.Builder(this);
         builder.setMessage("Apakah Kamu Benar-Benar Ingin Keluar?")
                 .setCancelable(false)

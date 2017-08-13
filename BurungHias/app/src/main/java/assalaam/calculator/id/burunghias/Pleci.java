@@ -126,4 +126,9 @@ public class Pleci extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Pleci.this.finish();
+    }
 }

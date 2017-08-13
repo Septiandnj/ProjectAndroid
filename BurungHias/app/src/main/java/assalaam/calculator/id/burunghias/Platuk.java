@@ -126,4 +126,9 @@ public class Platuk extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Platuk.this.finish();
+    }
 }

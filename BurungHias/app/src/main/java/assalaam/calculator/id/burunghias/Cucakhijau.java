@@ -126,4 +126,9 @@ public class Cucakhijau extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Cucakhijau.this.finish();
+    }
 }

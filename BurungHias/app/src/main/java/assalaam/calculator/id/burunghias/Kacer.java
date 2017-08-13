@@ -125,4 +125,10 @@ public class Kacer extends Activity {
 
         stateAwal();
     }
+
+    public void onBackPressed()
+    {
+        mp.stop();
+        Kacer.this.finish();
+    }
 }

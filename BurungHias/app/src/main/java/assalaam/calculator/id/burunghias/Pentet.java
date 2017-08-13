@@ -126,4 +126,9 @@ public class Pentet extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Pentet.this.finish();
+    }
 }

@@ -126,4 +126,9 @@ public class Kenari extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Kenari.this.finish();
+    }
 }

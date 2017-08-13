@@ -126,4 +126,9 @@ public class Cipoh extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Cipoh.this.finish();
+    }
 }

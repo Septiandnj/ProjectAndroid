@@ -126,4 +126,9 @@ public class Kolibri extends Activity {
         stateAwal();
     }
 
+    public void onBackPressed()
+    {
+        mp.stop();
+        Kolibri.this.finish();
+    }
 }
